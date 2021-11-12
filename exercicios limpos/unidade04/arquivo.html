@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade 02 - Elemento Head</title>
+        <meta charset="utf-8">
+        <title>Curso de HTML5 Essencial</title>
+        
+        <style>
+            body{
+                background: #ccc;
+                font-family: Arial, sans-serif;
+                color: #fff;
+            }
+        </style>
+        <!-- 
+            Inserindo JS direto na página;
+            Criando e chamando uma função.
+        -->
+        <script>
+            function escreverNome() {
+                nome.innerHTML = "Curso de HTML5 Essencial";
+            }
+
+            window.onload = escreverNome;
+        </script>
+
+    </head>
+    <body>
+        <!-- O Javascript idebtifica pelo id -->
+        <p id="nome"></p>
+    </body>
+</html>
